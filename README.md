@@ -1,11 +1,9 @@
-# git-check.el helm-git-check.el
-
-Show git log  with helm and completion mode.
+# git-check
+  Show git log with helm and completion mode.
 
 ## Requirements
-
-- [helm]
-- git
+   - git
+   - helm
 
 ## Configuration
 
@@ -19,9 +17,9 @@ Add the following to your emacs init file.\
     (setq python_file_dir "\~/.emacs.d/\<path to git check\>/git-check/")
     
 ## Basic usage
-#### <kbd>M-x</kbd> `git-check`
-#### <kbd>M-x</kbd> `helm-git-check`
+   #### <kbd>M-x</kbd> `git-check`
+   #### <kbd>M-x</kbd> `helm-git-check`
 
 ## Picture
-![git-checkhttps](https://github.com/kamikado/emacs_git_check/blob/master/git-check.png?raw=true)
-![helm-git-check](https://github.com/kamikado/emacs_git_check/blob/master/helm-git-check.png?raw=true)
+   ![git-checkhttps](https://github.com/kamikado/emacs_git_check/blob/master/git-check.png?raw=true)
+   ![helm-git-check](https://github.com/kamikado/emacs_git_check/blob/master/helm-git-check.png?raw=true)
